@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Dirooz";
+  src: url("../../fonts/Dirooz-FD.woff");
+}
+
+body {
+  direction: rtl;
+  font-family: "Dirooz";
+  background-image: url("../../pages/Project/1.jpg") !important;
+}
+
+.navbar > ul {
+  border-radius: 8px;
+  display: flex;
+  list-style: none;
+  background-color: #759d8f;
+}
+
+.navbar > ul > li {
+  padding: 8px;
+}
+.navbar > ul > li > a {
+  color: white;
+  padding: 8px;
+  text-decoration: none;
+}
+
+.navbar > ul > li > a:hover {
+  background-color: #575f5c;
+}

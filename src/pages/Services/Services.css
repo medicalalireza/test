@@ -1,0 +1,41 @@
+body {
+}
+.services {
+  background-color: darkgoldenrod;
+  border-radius: 4px;
+}
+.container {
+  position: relative;
+  background-color: #fdfdfd;
+  border-radius: 5px;
+}
+
+.title {
+  padding: 4px;
+  color: white;
+}
+
+.hotels {
+  position: relative;
+}
+
+.hotel-title {
+  border-radius: 2px 5px 15px 15px;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.hotels > a {
+  direction: rtl;
+  float: left;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  margin-top: 10px;
+  margin: 8px;
+  padding: 12px;
+  border-radius: 8px;
+}
